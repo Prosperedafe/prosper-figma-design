@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Nanum+Gothic&family=Open+Sans:wght@300;600&family=Poppins:wght@100;300;400;500;600;800&family=Roboto:wght@100;300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  padding: 10px;
+}
+#profile {
+  display: flex;
+  justify-content: space-between;
+}
+.page {
+  /* background-color: rgb(205, 190, 190); */
+  padding: 25px;
+  /* border-radius: 40px; */
+}
+nav img {
+  height: 25px;
+}
+h1 {
+  font-size: 25px;
+  font-family: poppins;
+  font-weight: 500;
+  margin: 20px 0px 20px 0px;
+}
+.jobs #search {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.jobs input {
+  width: 85%;
+  padding: 12px;
+  text-align: center;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+#volume {
+  height: 46px;
+  position: absolute;
+  margin-top: -4px;
+}
+#h2 {
+  font-family: poppins;
+  font-weight: 500;
+  margin: 30px 0px 10px 0px;
+  font-size: 18px;
+}
+.designer {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  border-radius: 20px;
+}
+.designer h3 {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 20px;
+}
+.nike {
+  display: flex;
+  justify-content: space-between;
+}
+.nike img {
+  background-color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+.ui span {
+  font-size: 50px;
+}
+.ui p {
+  font-family: poppins;
+  margin-top: -30px;
+  font-size: 15px;
+}
+.ui h2 {
+  font-size: 18px;
+  font-weight: 450;
+  font-family: poppins;
+}
+.button button {
+  width: 32%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  background-color: rgba(115, 115, 115, 0.765);
+}
+#engineer h2 {
+  font-size: 17px;
+  font-family: poppins;
+  font-weight: 450;
+  margin: 20px 0px 10px 0px;
+}
+.senior p {
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 13px;
+}
+.senior {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: white;
+  margin: 10px 0px 10px 0px;
+  padding: 8px;
+}
+.senior img {
+  object-fit: cover;
+  height: 35px;
+}
+.senior span {
+  font-size: 9px;
+  font-family: poppins;
+}
+/* query */
+@media only screen and (min-device-width: 600px) and (max-device-width: 1280px) {
+  .body {
+    display: flex;
+    justify-content: center;
+  }
+  .page {
+    background-color: rgb(252, 236, 236);
+  }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  .body {
+    display: flex;
+    justify-content: center;
+  }
+  .page {
+    background-color: rgb(252, 236, 236);
+  }
+}
